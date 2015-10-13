@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {margin:0px;padding:0px;}
+body,td,li {font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000000;}
+p {font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000000;line-height:16px;}
+body a {text-decoration:none; color:#142B6F} body a:hover {color:#6DA7AF; text-decoration:none;}
+.sitecolor1, .button_arrowback {background-color:#330000;}
+.sitecolor2 {background-color:#670001;}
+h1,h2,h3,h4, h5 {color: #482e0d; margin-bottom:0px;padding:0px;}
+H1 { FONT-SIZE: 18px;}
+H2 { FONT-SIZE: 18px; font-weight:normal;}
+H3 { FONT-SIZE: 14px; font-weight:normal;}
+H4 { FONT-SIZE: 16px; font-weight:normal;margin-bottom:5px;}
+
+td .printerFriendlyTitle {color: #482e0d; margin-bottom:0px;padding-left:15px; FONT-SIZE: 18px; font-weight:normal;}
+
+.footer {FONT-SIZE: 9px; COLOR: #666666;padding-top:25px;padding-left:300px;}
+.footer A {COLOR: #666666;}
+.footer A:active {COLOR: #666666;}
+.footer A:hover {COLOR: #000;}
+.breadcrumb_nav {color:0f204b; font-size:10px;}
+.button_arrowback { background-color: #666666}
+.button_arrowclose { background-color: #666666}
+
+
+#loginform input.text, #loginform input.password {border: 1px solid #ddd; background: #ffffff; width:200px;}
+#loginform input.text:hover, #loginform input.password:hover {background: #ECECEC; color: #333; }
+#loginform input[type=checkbox] {border: 1px solid #DDD; background: #ECECEC; width:15px; height:15px;}
+#loginform input.button {font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 12px; background-color:#CCCCCC; width:155px;}
+#loginform input.button:hover, #loginform input.submit:hover {font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 12px; background-color:#b6cfd3}
+#loginform input.submit {font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 12px; background-color:#CCCCCC; width:100px;}
+/*Form*/
+
+#fourthlevel #schoolnav {border-bottom:5px solid #b6cfd3; } #fourthlevelform #schoolnav {border-bottom:5px solid #b6cfd3; }
+#fourthlevel #header {padding:0 0 0 0px;} #fourthlevelform #header {padding:0 0 0 0px;}
+#fourthlevel #content {margin:0 20 0 20px;} #fourthlevelform #content {margin:0 20 0 20px;}
+#firstlevel #searchbox {margin:5px 0 10 65px;}
+#fourthlevel .maincontent {padding:10 0 0 0px;width:605px;} #fourthlevelform .maincontent {padding:10 0 0 0px;width:605px;}
+/* footer */
+
+.rc_title, .rc_txtlink, .rc_txtsummary {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;}
+ .rc_title {font-weight:bold;color:#482e0d;}
+ .rc_outter {padding:0 0 0 0px; }
+ .rc_inner {width:100%; padding:0 0 15px 0px;}
+ .rc_title {width:100%;text-align:left;padding:0px 0 2px 0px;margin:0 0 2px 0px;}
+ .rc_txtbox {padding:0 0 10px 8px;}
+ .rc_txtlink {padding:0px 0px 5px 2px;}
+ .rc_txtlinkarrow {COLOR: #142B6F; margin-left:-10px;padding-right:4px;}
+ .rc_txtlink A,  .rc_txtlink A:visited,  .rc_txtlink A:hover,  .rc_txtlink A:active {font-family: Verdana, Arial, Helvetica, sans-serif; }
+ .rc_txtlink A,  .rc_txtlink A:visited {COLOR: #142B6F;}
+ .rc_txtlink A:hover,  .rc_txtlink A:active {COLOR: #6DA7AF;}
+.rc_subtitle {margin-bottom:5px;font-size: 8pt;}
+#secondlevel #maincontent {line-height:18px; width:380px;}
+#secondlevel #sidebar {width:160px;padding-top:25px;}
+#sidebar .rc_title, #sidebar .rc_txtlink, #sidebar .rc_txtsummary {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt;}
+#sidebar .rc_title {font-weight:bold;color:#482e0d;}
+#sidebar .rc_outter {width:155px;padding:0 0 0 0px; }
+#sidebar .rc_inner {width:100%; padding:0 0 15px 0px;}
+#sidebar .rc_title {width:100%;text-align:left;padding:5px 0 5px 0px;margin:0 0 5px 10px;}
+#sidebar .rc_txtbox {padding:0 0 10px 20px;}
+#sidebar .rc_txtlink {padding:0px 0px 5px 2px;}
+#sidebar .rc_txtlinkarrow {COLOR: #142B6F; margin-left:-10px;padding-right:4px;}
+#sidebar .rc_txtlink A, #sidebar .rc_txtlink A:visited, #sidebar .rc_txtlink A:hover, #sidebar .rc_txtlink A:active {font-family: Verdana, Arial, Helvetica, sans-serif; }
+#sidebar .rc_txtlink A, #sidebar .rc_txtlink A:visited {COLOR: #142B6F;}
+#sidebar .rc_txtlink A:hover, #sidebar .rc_txtlink A:active {COLOR: #6DA7AF;}
+
+/* search results */
+.searchFormText { font-family:arial, sans-serif; font-size:11px; color:#666666; line-height:14px; margin-top:7px; }
+.searchFormText A { color:#142B6F; }
+.searchFormText A:hover { color:#6DA7AF; }
+.searchResultsText { font-family:arial,sans-serif;font-size:11px;color:#666666;padding-right:12px;padding-left:5px;padding-bottom:16px; margin:0px; }
+.searchResultsText p { font-family:arial,sans-serif;font-size:11px;color:#666666;padding-right:12px;padding-left:5px;padding-bottom:16px; margin:0px; }
+.searchResultsText A { color:#142B6F; }
+.searchResultsText A:hover { color:#6DA7AF; }
+/*School link*/
+.schoollinktable {background-color:#000000;}
+.schoollink {FONT-SIZE: 9px; COLOR: #b8cacc; text-align:center; }
+A.schoolnav_n, A.schoolnav_c, A.schoolnav_f,A.schoolnav_g,A.schoolnav_as {font-family: Verdana, Arial, Helvetica,sans-serif; font-size: 10px; COLOR: #b7dce2; text-decoration: none;display: block;width: 100%; padding-top:5px; padding-bottom:6px;  background-color:#18295d;}
+A.schoolnav_n:VISITED, A.schoolnav_c:VISITED,A.schoolnav_f:VISITED,A.schoolnav_g:VISITED, A.schoolnav_as:VISITED{COLOR: #b8cacc; text-decoration: none;  background-color: #18295d;}
+A.schoolnav_n:HOVER, A.schoolnav_c:HOVER,A.schoolnav_f:HOVER,A.schoolnav_g:HOVER, A.schoolnav_as:HOVER {COLOR:#FFFFFF;text-decoration: none;}
+A.nav_contact, A.nav_sitemap, A.nav_search {COLOR: #b8cacc; text-decoration: none; }
+ 
+
+#mainnav {width:160px !important; width:171px; padding-top:20px; text-align:left;}
+#firstlevel .mainnavtitle, #firstlevel.mainnavtitle A, #firstlevel.mainnavtitle A:active {padding:0px 0px 2px 3px; font-weight:bold;}
+.mainnav_offbox     {display: block; padding: 2px 0px 0px 3px; margin-top:7px; height:18px;}
+a.mainnav_off:hover {display: block; padding: 2px 0px 0px 5px; margin: -2px 0px 0px -5px; background-color:#ededed; height:18px; width:152px !important; width: 160px;}
+#secondlevel #mainnav {width:170px; padding-top:20px;}
+#secondlevel .mainnav_offbox {display: block; padding: 2px 0px 0px 0px; margin-top:7px; height:18px;}
+#secondlevel .mainnavtitle {display: block; padding: 2px 0px 0px 0px; margin-top:7px; height:18px;}
+#secondlevel .mainnav_on {padding:2px 0px 3px 0px;display: block;margin-top:7px; height:15px; font-weight:bold; color:#0f204b; }
+#secondlevel a.mainnav_off:hover {display: block; padding: 2px 0px 0px 5px; margin: -2px 0px 0px -5px; background-color:#ededed; height:18px; width:159px !important; width: 172px;}
+#secondlevel .mainnavtitle A:hover {display: block; padding: 2px 0px 0px 5px; margin: -2px 0px 0px -5px; background-color:#ededed; height:18px; width:159px !important; width: 172px;}
+.mainnav_child .mainnav_onbox {display:none;}
+#secondlevel .mainnav_child .mainnav_offbox {display:none;}
+  
+/*1st level Bucket*/
+
+#firstlevel .outterbox {border:1px solid #0f204b;margin:0 0 10px 0px;}
+#firstlevel .upperbox {font-weight:bold;font-size:11px;color:#482e0d;padding:5px 10px 5px 10px;margin:0px;background:#EDEDED;}
+#firstlevel .lowerbox {margin:5px 5px 10px 10px;}
+#firstlevel .txtlink {padding:2 0 5px 13px;}
+#firstlevel .txtlinkarrow {COLOR: #0f204b;margin-left:-13px;}
+#firstlevel .txtlink A {color:#0f204b;}
+#firstlevel .txtlink A:hover {color:#6DA7AF;}
+#firstlevel .upperbox, #firstlevel .lowerbox {text-align:left;}
+#firstlevel .txtsummary {margin:0 5 0 13px;}
+#firstlevel .txtlink_date {color:#333333; font-weight:bold;padding-bottom:2px; margin-left:-10px;}
+#firstlevel .event {padding:2px 0px 10px 0px;}
+#firstlevel .contenttxtevent {margin-left:-10px;}
+#firstlevel .event {line-height:18px; margin-left:-10px;}
+
+.searchtable_bg,.searchbox_bg {background:#FFF;border:none;}
+.searchbutton_bg {background:#666;border:none;}
+.searchtext_bg {border-top: 1px solid #666;border-right: 1px solid #DDD;border-bottom: 1px solid #DDD;border-left: 1px solid #666;}
+input, textarea, select{  font-size: 12px;  background: #FFF;  border:none;height:18px; width:102px;}
+label, select,input[type=checkbox],input[type=radio],input[type=button],input[type=submit] {cursor: pointer;} 
+input[type=image]{  font-size: 12px;  background: #FFFFFF;}
+textarea { font-size: 1.4em; }
+input:focus, textarea:focus{  background: #fff;}
+input:hover { background: #FFF; color: #333; }
+fieldset{  border: 1px solid #999;  margin: 0;  padding: 5px;}
+#search fieldset label { display: none; }
+input#searchsubmit{ font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 12px; width:62px;}
+
+/*---- 4th level forms ------*/
+#secondlevel .txtlink_date, .lanBold {margin:0 0 5px 0px;padding:0px;font-weight:bold;color:482e0d;font-size:10px;line-height:14px;}
+#secondlevel .txtlink_eventtype, .lanTitle {color:#18295d;font-weight:bold; padding:0 0 4px 0;margin:0px;font-size:11px;}
+#secondlevel .txtlink_picture img {max-width:320px;padding:10 0 10 0px;}
+#secondlevel .txtlink_title {color:#666;line-height:15px;}
+#secondlevel .txtlink_content {color:#666;line-height:15px;}
+#secondlevel .txtlink_summary  {color:#666;line-height:15px;}
+#secondlevel .txtlink_title {font-weight:bold; padding:0 0 3px 0;}
+
+#fourthlevel .txtlink_date, .lanBold {margin:0 0 5px 0px;padding:0px;font-weight:bold;color:482e0d;font-size:10px;line-height:14px;}
+#fourthlevel .txtlink_eventtype, .lanTitle {color:#18295d;font-weight:bold; padding:0 0 4px 0;margin:0px;font-size:11px;}
+#fourthlevel .txtlink_picture img {max-width:320px;padding:10 0 10 0px;}
+/* width:expression( document.body.clientWidth > (500/12) * parseInt(document.body.currentStyle.fontSize)?"30em":"auto" );} */
+#fourthlevel .txtlink_title, #secondlevel .txtlink_content, #secondlevel .txtlink_summary  {color:#666;line-height:15px;}
+#fourthlevel .txtlink_title {font-weight:bold; padding:0 0 3px 0;}
+
+
+.leftbox {width:100px;margin-right:4px;}
+
+#fourthlevel .leftbox {width:100px;margin-right:8px;}
+.lowerbox_content {margin-top:20px;}
+table.cal {margin: 9px 0 9px -4px;}
+table.cal td:hover {background-color:#ccc;color:#ccc;}
+.cal td {font-family: geneva,lucinda,arial,helvetica,sans-serif; font-size: 11px;border: 1px solid #ccc;}
+.cal td.calhl {background-color: #fff;}
+#caltable td {font-weight:bold;font-size:11px;color:#482e0d;}
+#caltable td p{font-weight:normal;font-size:11px;color:#482e0d;}
+a.calhl:link, a.calhl:visited {text-decoration: none;}
+a.calhl:hover {text-decoration: underline;}
+#caltitle {width: 627px; height: 33px;}
+#calcontent {width: 231px; padding: 0 13px; float: left;}
+#caltable .white {font-weight:bold;font-size:09px;color:#0f204b;}
+#caltable .blue{font-weight:normal;font-size:10px;color:#0f204b;line-height:14px;padding-bottom:10px;}
+ select.field3 {width:160px; border-top: 1px solid #B7DCE2;border-right: 1px solid #B7DCE2;border-bottom: 1px solid #B7DCE2;border-left: 1px solid #B7DCE2;}
+#calhr {background-color:#B7DCE2; width:340px; height:1px; margin:0px; padding:0px;}
+OPTGROUP {padding-top:5px;} OPTION {line-height:14px;}
+li {list-style: none; color:#333;}
+.plain {font-weight:normal;font-size:11px;color:#0f204b; line-height:16px;}
+ul {!important; margin-left:0px;}
+#researchlistx {width:250px; float:left; padding-top: 4px; display: block;}
+#researchbox {width:250px; float:left; padding-top: 4px; padding-bottom:10px; display: block;}
+#researchlist  {padding-top:4px;}
+/*---- 4th level table stripes ------*/
+#courses tbody tr.even td {background-color: #E0EDEF;font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 9px;}
+#courses tbody tr.odd  td {background-color: #fff;font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 9px;} 
+#courses table {width:640px;  border: 0px solid #999; } 
+#courses tbody tr.titlebar td {text-align:center; font-family: Verdana,mingliu,Arial, Sans-Serif; font-size: 10px; background:#0f204b; font-weight:normal; color:#fff;}
+
+#firstlevel { background-image:url('econ_1.jpg'); background-repeat:no-repeat; background-position:top center;}
+
+.phdnav { border-top: 1px solid #999999; border-bottom: 1px solid #999999;}
+.phdnav li {display:inline;  padding:0;}
+.phdnav li a {padding-right:20px;}
